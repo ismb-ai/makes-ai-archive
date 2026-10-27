@@ -1,0 +1,26 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+# Private business data and model artefacts
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.pt
+*.pth
+*.db
+*.sqlite*
+# Original recovery bundles are retained outside this repository
+*.zip
+original-downloads/

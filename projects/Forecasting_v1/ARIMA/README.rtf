@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ARIMA.py\
+\
+O c\'f3digo apresenta uma implementa\'e7\'e3o do modelo ARIMA para modelar uma s\'e9rie temporal, onde as fun\'e7\'f5es para executar o modelo, plotar o gr\'e1fico e fazer previs\'f5es est\'e3o definidas. O modelo ARIMA \'e9 executado nos dados de treinamento e depois usado para prever os pr\'f3ximos 50 passos da s\'e9rie temporal. O resultado ent\'e3o \'e9 representado graficamente, mostrando tanto os dados originais como o modelo ajustado e as previs\'f5es para futuros passos.\
+\
+====================================================================\
+\
+ARIMA_sliding_window.py\
+\
+Implementamos uma abordagem de janelas-deslizantes para modelar uma s\'e9rie-temporal pelo m\'e9todo ARIMA. O c\'f3digo inicializa duas listas: "history", que armazena os primeiros elementos da s\'e9rie temporal como determinado pelo tamanho da janela, e "predictions", que armazena as previs\'f5es futuras. Em seguida, iteramos sobre o restante da s\'e9rie temporal, construindo e ajustando um modelo ARIMA usando a lista "history", e fazemos uma previs\'e3o n-passos adiante, onde n:='horizonte'. Por fim, adicionamos os dados reais ap\'f3s todas as previs\'f5es terem sido feitas, calculamos o erro quadr\'e1tico m\'e9dio entre os dados reais e as previs\'f5es, imprimimos o resultado, e ent\'e3o confrontamos os dados reais e as previs\'f5es por meio de um gr\'e1fico.}

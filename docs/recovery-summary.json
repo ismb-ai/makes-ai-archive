@@ -1,0 +1,29 @@
+{
+  "recovery_date": "2026-10-27",
+  "project_folders": 21,
+  "downloaded_zip_archives": 17,
+  "archive_entries_including_nested": 54,
+  "recovered_code_file_occurrences": 1001,
+  "distinct_original_code_contents": 320,
+  "prepared_python_files": 813,
+  "prepared_notebooks": 129,
+  "source_version_coverage_complete": true,
+  "validation_python_files_including_checker": 814,
+  "syntax_issues_after_preparation": [
+    {
+      "path": "versions/Hume-v1-c927162d/Hume-v1/src/Bayesian-RecSys.py",
+      "line": 113,
+      "error": "invalid syntax"
+    },
+    {
+      "path": "projects/Hume/src/Bayesian-RecSys.py",
+      "line": 113,
+      "error": "invalid syntax"
+    },
+    {
+      "path": "projects/Hume-v1/src/Bayesian-RecSys.py",
+      "line": 113,
+      "error": "invalid syntax"
+    }
+  ]
+}
